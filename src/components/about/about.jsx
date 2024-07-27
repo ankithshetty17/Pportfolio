@@ -5,6 +5,7 @@ import { RiGlobalFill } from "react-icons/ri";
 
 function About() {
   return (
+    <section id='about'>
     <div className='flex flex-col justify-center items-center p-4'>
       <div className='block mt-14 text-center'>
         <h5 className='font-sans font-semibold text-blue-300'>Get To Know</h5>
@@ -58,6 +59,7 @@ function About() {
         </p>
       </div>
     </div>
+    </section>
   )
 }
 

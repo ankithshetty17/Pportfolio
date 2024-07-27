@@ -3,6 +3,7 @@ import { IoIosMailOpen } from "react-icons/io";
 
 function Contact() {
   return (
+    <section id='contacts'>
     <div className='mt-14 justify-center items-center'>
       <div className='block text-center'>
        <h5 className='font-sans font-semibold text-blue-300'>Get In Touch</h5>
@@ -48,6 +49,7 @@ function Contact() {
 
 
     </div>
+    </section>
   )
 }
 
