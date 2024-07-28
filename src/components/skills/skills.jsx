@@ -2,8 +2,9 @@
 import React from 'react'
 
 function Skills() {
+  
   return (
-    <section id='skills'>
+   
     <div className='mt-14 p-4'>
       <div className='text-center'>
         <h5 className='font-sans font-semibold text-blue-300'>Get To Know</h5>
@@ -54,7 +55,7 @@ function Skills() {
         </div>
       </div>
     </div>
-    </section>
+   
   )
 }
 

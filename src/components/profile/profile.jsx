@@ -21,7 +21,7 @@ function Profile() {
            </a>
          </div>
          <div className='mb-3'>
-           <a href='https://www.instagram.com/'target="_blank" rel='noopener noreferrer' className='text-blue-300'>  <LuInstagram className='hover:text-white cursor-pointer'/></a>
+           <a href='https://www.instagram.com/aankii_th/'target="_blank" rel='noopener noreferrer' className='text-blue-300'>  <LuInstagram className='hover:text-white cursor-pointer'/></a>
          </div>
          <div className='mb-3'>
            <a href='https://www.linkedin.com/in/ankith-shetty-1babb924b/'target="_blank" rel='noopener noreferrer' className='text-blue-300'>  <LuLinkedin className='hover:text-white cursor-pointer'/></a>

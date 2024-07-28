@@ -1,8 +1,9 @@
 import React from 'react'
 
 function Experience() {
+ 
   return (
-    <section id='experience'>
+    
     <div className=' block  justify-center items-center mt-14'>
       <div className='text-center'>
         <p className='font-sans font-semibold text-3xl'>My Experience</p>
@@ -28,7 +29,7 @@ function Experience() {
         </div>
       </div>
     </div>
-    </section>
+   
   )
 }
 
