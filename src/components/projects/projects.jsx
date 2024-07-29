@@ -1,5 +1,10 @@
 import React from 'react'
 import { MdOutlineKeyboardArrowLeft,MdOutlineKeyboardArrowRight } from "react-icons/md";
+import spotify from '../../assets/images/spotify.jpg';
+import attendence from '../../assets/images/attendence.jpg';
+import venue from '../../assets/images/venue.jpg';
+import videocall from '../../assets/images/videocall.jpg';
+import news from '../../assets/images/news.jpg';
 
 function Projects() {
   return (
@@ -23,8 +28,8 @@ function Projects() {
                scroll-smooth'>
               <MdOutlineKeyboardArrowRight className=' text-white'/></div>
                 <div className='flex flex-col  items-center justify-center w-96 h-96 px-4 bg-blue-900 hover:bg-transparent hover:border cursor-pointer  rounded-3xl  transition-all duration-100 ease-in'>
-                   <div className='w-full h-52 bg-white rounded-3xl'>
-                    <img src=''/>
+                   <div className='w-full h-52 bg-white rounded-3xl overflow-hidden'>
+                    <img src={attendence} className='w-full h-full object-cover'/>
                    </div>
                    <div className='text-center'>
                     <p className='mt-2 font-sans font-semibold text-xl'>Attendence Management App</p>
@@ -36,12 +41,12 @@ function Projects() {
                 </div>
 
                 <div className='flex flex-col  items-center justify-center w-96 h-96 p-4 bg-blue-900 hover:bg-transparent hover:border cursor-pointer  rounded-3xl'>
-                   <div className='w-full h-52 bg-white rounded-3xl'>
-                    <img src=''/>
+                   <div className='w-full h-52 bg-white rounded-3xl overflow-hidden'>
+                    <img src={news} className='w-50 h-50 object-cover'/>
                    </div>
                    <div className='text-center'>
                     <p className='mt-2 font-sans font-semibold text-xl'>NewsFeed-App</p>
-                    <p className='mt-2 font-sans font-semibold'>Technologies Used:Dart,Flutter,FireBase(Firebase Authentication),NewsAPI</p>
+                    <p className='mt-2 font-sans font-semibold'>Technologies  Used:Dart,Flutter,FireBase,NewsAPI</p>
                    </div>
                    <div className='flex items-center  border-white border-2 justify-center mt-4 h-12 w-28 rounded-md hover:bg-transparent hover:border-blue-900'>
                     <a className='text-white hover:text-white flex items-center justify-center w-full h-full' href='https://github.com/ankithshetty17/News-Feed.git'>Github</a>
@@ -49,8 +54,8 @@ function Projects() {
                 </div>
 
                 <div className='flex flex-col  items-center justify-center w-96 h-96 p-4 bg-blue-900 hover:bg-transparent hover:border cursor-pointer  rounded-3xl'>
-                   <div className='w-full h-52 bg-white rounded-3xl'>
-                    <img src=''/>
+                   <div className='w-full h-52 bg-white rounded-3xl overflow-hidden'>
+                    <img src={venue} className='h-full w-full object-cover'/>
                    </div>
                    <div className='text-center'>
                     <p className='mt-2 font-sans font-semibold text-xl'>Venue App</p>
@@ -63,8 +68,8 @@ function Projects() {
                 </div>
 
                 <div className='flex flex-col  items-center justify-center w-96 h-96 p-4 bg-blue-900 hover:bg-transparent hover:border cursor-pointer  rounded-3xl  transition-all duration-100 ease-in'>
-                   <div className='w-full h-52 bg-white rounded-3xl'>
-                    <img src=''/>
+                   <div className='w-full h-52 bg-white rounded-3xl overflow-hidden'>
+                    <img src={videocall} className='h-80 w-full object-cover'/>
                    </div>
                    
                    <div className='text-center'>
@@ -90,8 +95,8 @@ function Projects() {
                 </div>
 
                 <div className='flex flex-col  items-center justify-center w-96 h-96 p-4 bg-blue-900 hover:bg-transparent hover:border cursor-pointer  rounded-3xl  transition-all duration-100 ease-in'>
-                   <div className='w-full h-52 bg-white rounded-3xl'>
-                    <img src=''/>
+                   <div className='w-full h-52 bg-white rounded-3xl overflow-hidden'>
+                    <img src={spotify} className='w-50 h-50 object-cover'/>
                    </div>
                    <div className='text-center'>
                     <p className='mt-2 font-sans font-semibold text-xl'>SpotifyApp-UI</p>

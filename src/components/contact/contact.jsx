@@ -70,9 +70,9 @@ function Contact() {
             </div>
             <div className='bg-transparent w-96 h-44 border-2 border-blue-600 rounded-md p-2'>
               <textarea
-                className='text-gray-50 w-full border-none focus:outline-none p-2 text-sm font-bold bg-transparent'
+                className='text-gray-50 w-full h-full border-none focus:outline-none p-2 text-sm font-bold bg-transparent'
                 name='message'
-                placeholder='Content Here'
+                placeholder='Enter Message'
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />
